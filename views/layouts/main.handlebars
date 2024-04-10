@@ -23,17 +23,17 @@
         {{#if loggedIn}}
         {{#if showDashboard}}
         <li class="nav-item">
-          <a class="nav-link" href="/dashboard/{{userId}}">Dashboard</a>
+          <a class="nav-link text-white" href="/dashboard/{{userId}}">Dashboard</a>
         </li>
         {{/if}}
         {{#if showDashboard}}
         <li class="nav-item">
-          <button type="button" class="btn btn-dark" id="logout">Logout</button>
+          <button type="button" class="btn btn-light text-success" id="logout">Logout</button>
         </li>
         {{/if}}
         {{else}}
         <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
+          <a class="nav-link text-white" href="/login">Login</a>
         </li>
         {{/if}}
       </ul>
